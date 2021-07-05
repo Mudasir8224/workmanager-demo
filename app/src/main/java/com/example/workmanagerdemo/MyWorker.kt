@@ -21,7 +21,6 @@ class MyWorker(context: Context, workerParams: WorkerParameters) : Worker(contex
     }
 
     override fun doWork(): Result {
-
         //getting the input data
         val taskDesc = inputData.getString(TASK_DESC)
 
